@@ -1,0 +1,7 @@
+bin/
+obj/
+
+*.db
+*.sln
+appsettings*.json
+envloader.sh

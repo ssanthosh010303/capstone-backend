@@ -1,0 +1,28 @@
+{
+    "Logging": {
+        "LogLevel": {
+            "Default": "Information",
+            "Microsoft.AspNetCore": "Warning"
+        }
+    },
+    "AllowedHosts": "*",
+    "Azure": {
+        "TenantId": "",
+        "ClientId": "",
+        "ClientSecret": "",
+        "KeyVaultUri": ""
+    },
+    "Cryptography": {
+        "SaltSize": 16,
+        "HashSize": 20,
+        "Iterations": 10000
+    },
+    "Jwt": {
+        "Issuer": "api.capstone.sakthisanthosh.in",
+        "Audience": "capstone.sakthisanthosh.in"
+    },
+    "Email": {
+        "Host": "smtp.gmail.com",
+        "Port": 587
+    }
+}

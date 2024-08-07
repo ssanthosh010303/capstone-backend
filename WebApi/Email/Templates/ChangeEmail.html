@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0 10px;
+      font-family: Arial, sans-serif;
+      background-color: #efefef;
+    }
+
+    p {
+      color: #222;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #333333;
+      }
+
+      p {
+        color: #cccccc;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    <b>Hello [0],</b>
+    <br>
+    &nbsp;&nbsp;Looks like you have requested to change your email address.
+    Please click the button below to confirm your new email address. Without
+    doing this, you'll account will remain in a deactivated state. This link
+    is valid for only 1 hour.
+  </p>
+  <a href="https://capstone.sakthisanthosh.in/email-update.html?token=[1]" class="button">
+    Confirm Email Change 📨
+  </a>
+  <p>
+    <b>Regards,</b>
+    <br>
+    Employee Grievance Redressal System - Presidio
+  </p>
+</body>
+
+</html>
